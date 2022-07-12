@@ -550,16 +550,16 @@ a:nth-child(4):hover~.animation {
     border: 1px solid #bd8e71;
 }
 
+/* Footer */
 .foot {
     display: flex;
     justify-content: center;
     align-items: center;
-  
     background: linear-gradient(0deg, rgba(148, 180, 159, 1) 48%, rgba(183, 204, 184, 1) 100%);
 }
 
 .foot h3 {
-    padding: 0 10%;
+    padding: 0 15%;
     text-decoration: none;
     font-family: 'Arima', cursive;
     color: #c96853;
@@ -573,7 +573,7 @@ a:nth-child(4):hover~.animation {
 
 .foot__icon {
     width: 35px;
-    padding: 0 5px;
+    padding-left: 10px;
 }
 
 
@@ -640,18 +640,23 @@ a:nth-child(4):hover~.animation {
 
     /* Footer */
     .foot {
-        align-items: flex-end;
-        padding: ;
+        padding: 5px 0;
     }
 
     .foot h3 {
-        font-size: ;
+        font-size: 2.5rem;
     }
 
     .foot__icon {
-        width: ;
+        width: 40px;
+    }
+
+    .foot__logo {
+        width: 70px;
+        
     }
 }
+
 
 @media (min-width: 820px) {
 
@@ -664,17 +669,7 @@ a:nth-child(4):hover~.animation {
     /* Productos */
     .productos {
         padding: 1.8% .3%;
-    }
-
-    /* Footer */
-    .foot {
-        align-items: flex-end;
-        padding: 2% 3%;
-    }
-
-    .foot h3 {
-        font-size: 3rem;
-    }
+    }  
 }
 
 @media (min-width: 1000px) {
@@ -713,32 +708,16 @@ a:nth-child(4):hover~.animation {
     }
 
     /* Footer */
-    .foot {
-        padding: 2% 3%;
-    }
-
     .foot h3 {
         font-size: 3rem;
-
+        padding: 0 25%;
     }
-
-    .foot__logo {
-        width: 15%;
-        margin-right: 13%;
-    }
-
-    .foot__icon {
-        width: 30%;
-
-    }
-
 }
 
 @media (min-width: 1280px) {
 
     /* Nav */
     nav {
-        margin: 2.7% auto;
         width: 35%;
     }
 
@@ -799,24 +778,8 @@ a:nth-child(4):hover~.animation {
     }
 
     /* Footer */
-    .foot {
-        align-items: flex-end;
-        padding: .5% 3%;
-    }
-
-    .foot h3 {
-        font-size: 1.5rem;
-        margin-right: 10%;
-    }
-
-    .foot__logo {
-        width: 8%;
-    }
-
-    .foot__icon {
-        width: 30px;
-        padding: 1% 0;
-
+    .foot h3{
+        padding: 0 32%;
     }
 
 }
