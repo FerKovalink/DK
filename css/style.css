@@ -101,7 +101,7 @@ nav .start-productos,
 a:nth-child(4):hover~.animation {
     width: 27%;
     left: 73%;
-    background-color: #eb7132;
+    background-color: #ECB390;
 }
 
 /* Banner */
@@ -309,7 +309,7 @@ a:nth-child(4):hover~.animation {
 }
 
 .link-three {
-    color: #eb7132;
+    color: #ECB390;
 }
 
 .link-three::after {
@@ -333,7 +333,7 @@ a:nth-child(4):hover~.animation {
             60% 20%,
             20% 20%);
 
-    background-color: #eb7132;
+    background-color: #ECB390;
 }
 
 .link-three:hover::after {
@@ -361,7 +361,7 @@ a:nth-child(4):hover~.animation {
             40% 80%,
             80% 80%);
 
-    background-color: #eb7132;
+    background-color: #ECB390;
 }
 
 .link-three:hover::before {
@@ -713,7 +713,6 @@ a:nth-child(4):hover~.animation {
     }
 }
 
-
 @media (min-width: 820px) {
 
     /* Nav1 */
@@ -755,6 +754,10 @@ a:nth-child(4):hover~.animation {
 
     .formulario p {
         font-size: 1.4rem;
+    }
+
+    .prod__titulo{
+        margin: 0;
     }
 }
 
@@ -807,7 +810,6 @@ a:nth-child(4):hover~.animation {
         border-radius: 20px;
         background: radial-gradient(circle, rgba(189, 142, 113, 1) 66%, rgba(216, 206, 165, 1) 89%);
     }
-
 
     /* Footer */
     .foot h1 {
