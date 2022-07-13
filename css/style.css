@@ -111,7 +111,7 @@ a:nth-child(4):hover~.animation {
 }
 
 .banner img {
-    width: 80%;
+    width: 450px;
 }
 
 /* Galeria de Fotos */
@@ -426,18 +426,17 @@ a:nth-child(4):hover~.animation {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: #bd8e71;
-    width: 70%;
-    margin: auto;
-    margin-top: 3%;
-    margin-bottom: 5%;
+    width: 90%;
+    margin: 20px 0 20px 6%;
     border-radius: 20px;
 }
 
 .contacto {
-    width: 460px;
+    width: 90%;
     height: auto;
-    margin: 8% auto;
+    margin: 7% 3%;
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -449,28 +448,32 @@ a:nth-child(4):hover~.animation {
 
 .contacto__vid {
     background-color: rgba(216, 206, 165, 1);
-    width: 40%;
-    padding: 4% 2%;
-    margin-left: 2%;
+    width: 90%;
+    margin-top: 15px;
+    padding: 4% 3%;
     border-radius: 8px;
+}
+
+.contacto__vid2 {
+    display: none;
 }
 
 .formulario input {
     background-color: #fbfbfb;
-    width: 408px;
-    height: 40px;
+    width: 90%;
+    height: 35px;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
     border-color: #ab4493;
-    margin-top: 10px;
-    padding-left: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
     margin-bottom: 20px;
 }
 
 .formulario textarea {
     background-color: #fbfbfb;
-    width: 405px;
+    width: 90%;
     height: 150px;
     border-radius: 5px;
     border-style: solid;
@@ -488,7 +491,8 @@ a:nth-child(4):hover~.animation {
 }
 
 .formulario button {
-    height: 45px;
+    width: 90%;
+    height: 35px;
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 20px;
@@ -498,7 +502,6 @@ a:nth-child(4):hover~.animation {
     border-color: #ab4493;
     border-style: solid;
     border-radius: 10px;
-    width: 400px;
     cursor: pointer;
 }
 
@@ -516,19 +519,19 @@ a:nth-child(4):hover~.animation {
 }
 
 .formulario h1 {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     padding-bottom: 20px;
     color: #ab4493;
 }
 
 .formulario h3 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding-bottom: 30px;
     color: #0e0e0e;
 }
 
 .formulario p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #0e0e0e;
 }
 
@@ -542,12 +545,12 @@ a:nth-child(4):hover~.animation {
 
 .formulario input:focus {
     outline: 0;
-    border: 1px solid #bd8e71;
+    border: 1px solid #19c26e;
 }
 
 .formulario textarea:focus {
     outline: 0;
-    border: 1px solid #bd8e71;
+    border: 1px solid #19c26e;
 }
 
 /* Footer */
@@ -592,6 +595,10 @@ a:nth-child(4):hover~.animation {
         font-size: 1.5rem;
     }
 
+    .banner img {
+        width: 70%;
+    }
+
     /* Galeria */
     .galeria-container {
         padding: 1% 1%;
@@ -604,7 +611,6 @@ a:nth-child(4):hover~.animation {
 
     .galeria h2 {
         font-size: 2rem;
-
     }
 
     .galeria__xl {
@@ -638,6 +644,9 @@ a:nth-child(4):hover~.animation {
         font-size: 1.2rem;
     }
 
+    /* Contacto */
+
+
     /* Footer */
     .foot {
         padding: 5px 0;
@@ -653,7 +662,7 @@ a:nth-child(4):hover~.animation {
 
     .foot__logo {
         width: 70px;
-        
+
     }
 }
 
@@ -669,7 +678,35 @@ a:nth-child(4):hover~.animation {
     /* Productos */
     .productos {
         padding: 1.8% .3%;
-    }  
+    }
+
+    /* Contacto */
+    .contact__side {
+        flex-direction: row;
+    }
+
+    .contacto__vid {
+        display: none;
+    }
+
+    .contacto__vid2 {
+        display: block;
+        background-color: rgba(216, 206, 165, 1);
+        width: 60%;
+        margin-left: 3%;
+        padding: 3% 2%;
+        border-radius: 8px;
+    }
+
+    .formulario h1{
+        font-size: 3rem;
+    }
+
+    .formulario h3{
+        font-size: 2.5;
+    }
+
+
 }
 
 @media (min-width: 1000px) {
@@ -760,9 +797,11 @@ a:nth-child(4):hover~.animation {
         border-radius: 360px;
     }
 
-    .producto h1,
-    .producto h2 {
+    .producto h1{
         font-size: 3rem;
+    }
+    .producto h2 {
+        font-size: 2.5rem;
     }
 
     .producto figure {
@@ -777,8 +816,24 @@ a:nth-child(4):hover~.animation {
         font-size: 1.2rem;
     }
 
+    /* Contacto */
+    .contact__side{
+        width: 900px;
+        margin-left: 340px;
+    }
+
+    .contacto{
+
+
+    }
+
+    .contacto__vid2{
+        width: 80%;
+        margin-right: 50px;
+    }
+
     /* Footer */
-    .foot h3{
+    .foot h3 {
         padding: 0 32%;
     }
 
