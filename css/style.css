@@ -30,7 +30,7 @@ nav {
     display: flex;
     margin: 3.5% auto;
     position: relative;
-    width: 65%;
+    width: 90%;
     background-color: #bd8e71;
     border-radius: 8px;
 }
@@ -39,6 +39,7 @@ nav a {
     font-family: sans-serif;
     line-height: 300%;
     font-size: 1.2rem;
+    font-weight: 500;
     display: inline-block;
     position: relative;
     justify-content: center;
@@ -111,7 +112,7 @@ a:nth-child(4):hover~.animation {
 }
 
 .banner img {
-    width: 450px;
+    width: 300px;
 }
 
 /* Galeria de Fotos */
@@ -134,7 +135,7 @@ a:nth-child(4):hover~.animation {
     justify-content: center;
     align-items: center;
     padding: 2%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: 'Arima', cursive;
     color: #FCF8E8;
     background-color: #ECB390;
@@ -175,6 +176,10 @@ a:nth-child(4):hover~.animation {
 
 .nav__text {
     font-size: 5rem;
+    text-decoration: none;
+}
+
+.nav1 a{
     text-decoration: none;
 }
 
@@ -371,12 +376,21 @@ a:nth-child(4):hover~.animation {
     padding-top: 1%;
 }
 
+.prod__titulo{
+    font-family: 'Oxygen', sans-serif;
+    margin: 10%;    
+    padding: 1% 0;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-radius: 360px;
+}
+
 .producto {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-family: 'Oxygen', sans-serif;
-
 }
 
 .producto h1,
@@ -388,6 +402,8 @@ a:nth-child(4):hover~.animation {
     background-color: rgba(255, 255, 255, .7);
     margin: 20px;
 }
+
+
 
 .producto figure {
     padding: 2% 2%;
@@ -566,7 +582,7 @@ a:nth-child(4):hover~.animation {
     text-decoration: none;
     font-family: 'Arima', cursive;
     color: #c96853;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .foot__logo {
@@ -582,6 +598,10 @@ a:nth-child(4):hover~.animation {
 
 
 /*  ======== Media Mobile ==========  */
+
+@media (min-width: 480px){
+    
+}
 
 @media (min-width: 768px) {
 
@@ -755,7 +775,7 @@ a:nth-child(4):hover~.animation {
 
     /* Nav */
     nav {
-        width: 35%;
+        width: 40%;
     }
 
     /* Banner */
@@ -819,12 +839,7 @@ a:nth-child(4):hover~.animation {
     /* Contacto */
     .contact__side{
         width: 900px;
-        margin-left: 340px;
-    }
-
-    .contacto{
-
-
+        margin-left: 20%;
     }
 
     .contacto__vid2{
