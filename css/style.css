@@ -578,6 +578,30 @@ a:nth-child(4):hover~.animation {
     border: 1px solid #19c26e;
 }
 
+/* Acerca de */
+.acerca{
+    background-color: #bd8e71;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.ace__1 img{
+    width: 50%;
+    float: left;
+    border-radius: 360px;
+    margin-right: 10px;
+    padding: 2%;
+    background-color: #ECB390;
+}
+
+.ace__2{
+    font-size: 1.2rem;
+    font-family: 'Oxygen', sans-serif;
+    color: whitesmoke;
+
+}
+
 /* Footer */
 .foot {
     display: flex;
@@ -617,7 +641,7 @@ a:nth-child(4):hover~.animation {
 }
 
 @media (min-width: 720px) {
-
+ 
     /* Nav */
     nav {
         margin: 2.7% auto;
